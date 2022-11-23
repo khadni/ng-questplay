@@ -1,0 +1,14 @@
+{
+  "name": "breaking-rng",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "hardhat test --network hardhat",
+    "deploy": "hardhat run ../../../scripts/deploy-validator.js --network goerli"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.1.2",
+    "hardhat-deploy": "^0.11.20"
+  }
+}
